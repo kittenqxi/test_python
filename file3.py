@@ -4,6 +4,10 @@
 # for i in range(h):
 #     print('*' * w)
 #Задание номер два
-h=int(input('Enter hight'))
+# h=int(input('Enter hight'))
+# for i in range(1, h+1):
+#     print('*' * i)
+#Задание номер три
+h=int(input())
 for i in range(1, h+1):
-    print('*' * i)
+    print(' ' * (h-i)+ '*'*i)
