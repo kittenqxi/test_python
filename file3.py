@@ -18,19 +18,25 @@
 #         print('*'*h)
 #     else:
 #         print('*'+' '*(h-2)+'*')
-h=int(input())
-a=2*h-1
-for i in range(a, 0, -2):
-    sp=(a-i)//2
-    for j in range(sp):
-        print(' ', end='')
-    for g in range(i):
-        print('*', end='')
-    print()
-for i in range(3, a+1, 2):
-    sp=(a-i)//2
-    for j in range(sp):
-        print(' ', end='')
-    for g in range(i):
-        print('*', end='')
+# h=int(input())
+# a=2*h-1
+# for i in range(a, 0, -2):
+#     sp=(a-i)//2
+#     for j in range(sp):
+#         print(' ', end='')
+#     for g in range(i):
+#         print('*', end='')
+#     print()
+# for i in range(3, a+1, 2):
+#     sp=(a-i)//2
+#     for j in range(sp):
+#         print(' ', end='')
+#     for g in range(i):
+#         print('*', end='')
+#     print()
+#Задание номер семь
+num=int(input())
+for i in range(1, num+1):
+    for j in range(i):
+        print(i, end='')
     print()
