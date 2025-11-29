@@ -18,16 +18,19 @@
 #         print('*'*h)
 #     else:
 #         print('*'+' '*(h-2)+'*')
-h=int(input('Enter hight: '))
-for i in range(h):
-    for j in range(h-i-1):
+h=int(input())
+a=2*h-1
+for i in range(a, 0, -2):
+    sp=(a-i)//2
+    for j in range(sp):
         print(' ', end='')
-    for j in range(2*i+1):
+    for g in range(i):
         print('*', end='')
     print()
-for i in range(h-2, -1, -1):
-    for j in range(h-i-1):
+for i in range(3, a+1, 2):
+    sp=(a-i)//2
+    for j in range(sp):
         print(' ', end='')
-    for j in range(2*i+1):
+    for g in range(i):
         print('*', end='')
-    print()    
+    print()
