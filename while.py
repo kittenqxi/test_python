@@ -16,7 +16,13 @@
 # 3
 # 2
 # 1
-
+#task 1
+num=int(input('Enter a number: '))
+total=0
+while num>0:
+    total+=num
+    num=int(input())
+print('sum = ', total)
 
 
 
