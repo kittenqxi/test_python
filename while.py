@@ -25,6 +25,8 @@
 # print('sum = ', total)
 #task 2
 num=int(input('Enter a number: '))
+if num<0:
+    num=abs(num)
 while num!=0:
     l_d=num%10
     print(l_d)
