@@ -17,12 +17,18 @@
 # 2
 # 1
 #task 1
+# num=int(input('Enter a number: '))
+# total=0
+# while num>0:
+#     total+=num
+#     num=int(input())
+# print('sum = ', total)
+#task 2
 num=int(input('Enter a number: '))
-total=0
-while num>0:
-    total+=num
-    num=int(input())
-print('sum = ', total)
-
+while num!=0:
+    l_d=num%10
+    print(l_d)
+    num-=l_d
+    num=num//10
 
 
