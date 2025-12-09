@@ -24,13 +24,31 @@
 #     num=int(input())
 # print('sum = ', total)
 #task 2
-num=int(input('Enter a number: '))
-if num<0:
-    num=abs(num)
-while num!=0:
-    l_d=num%10
-    print(l_d)
-    num-=l_d
-    num=num//10
+# num=int(input('Enter a number: '))
+# if num<0:
+#     num=abs(num)
+# while num!=0:
+#     l_d=num%10
+#     print(l_d)
+#     num-=l_d
+#     num=num//10
 
 
+# task 3
+#  Find the first number > N that is divisible by 4, skipping all numbers that contain the digit 0
+# User enters N (only integer)
+# Using a while loop:
+# If the number contains the digit 0 → continue.
+# If it is divisible by 4 → break and print it.
+
+# task 4
+#  Find the first three-digit number whose digit sum is even, skipping all numbers divisible by 5
+# Start from 100.
+# If the number is divisible by 5 → continue.
+# If the sum of its digits is even → break and print it.
+
+# task 5
+#  User enters numbers(only integer); ignore negative numbers (continue), stop when a number divisible by 13 appears
+# Infinite input loop:
+# If the number < 0 → continue.
+# If number % 13 == 0 → break and print it.
