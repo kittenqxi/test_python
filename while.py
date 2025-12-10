@@ -52,3 +52,14 @@
 # Infinite input loop:
 # If the number < 0 → continue.
 # If number % 13 == 0 → break and print it.
+n=int(input())
+num=n+1
+while True:
+    s = str(num)
+    if '0' in s:
+        num+=1
+        continue
+    if num%4==0:
+        print(num)
+        break
+    num+=1
