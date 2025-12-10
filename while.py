@@ -52,14 +52,27 @@
 # Infinite input loop:
 # If the number < 0 → continue.
 # If number % 13 == 0 → break and print it.
-n=int(input())
-num=n+1
+# n=int(input())
+# num=n+1
+# while True:
+#     s = str(num)
+#     if '0' in s:
+#         num+=1
+#         continue
+#     if num%4==0:
+#         print(num)
+#         break
+#     num+=1
+num=100
 while True:
-    s = str(num)
-    if '0' in s:
+    if num%5==0:
         num+=1
         continue
-    if num%4==0:
-        print(num)
+    digit1=num//100
+    digit2=(num//10)%10
+    digit3=num%10
+    sum=digit1+digit2+digit3
+    if sum%2==0:
         break
     num+=1
+print(num)
