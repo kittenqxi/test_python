@@ -63,16 +63,23 @@
 #         print(num)
 #         break
 #     num+=1
-num=100
+# num=100
+# while True:
+#     if num%5==0:
+#         num+=1
+#         continue
+#     digit1=num//100
+#     digit2=(num//10)%10
+#     digit3=num%10
+#     sum=digit1+digit2+digit3
+#     if sum%2==0:
+#         break
+#     num+=1
+# print(num)
 while True:
-    if num%5==0:
-        num+=1
+    num=int(input('Enter an integer: '))
+    if num<0:
         continue
-    digit1=num//100
-    digit2=(num//10)%10
-    digit3=num%10
-    sum=digit1+digit2+digit3
-    if sum%2==0:
+    if num%13==0:
+        print(num)
         break
-    num+=1
-print(num)
