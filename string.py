@@ -146,3 +146,12 @@
 # Split the string into a list of words without using split().
 # Words are separated by one or more spaces.
 # Return a list of words.
+
+#Task number one
+# s=input()
+# vowels=('aeiouAEIOU')
+# vowel_counter=0
+# for i in s:
+#     if i in vowels:
+#         vowel_counter+=1
+# print(vowel_counter)
