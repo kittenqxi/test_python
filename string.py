@@ -155,3 +155,11 @@
 #     if i in vowels:
 #         vowel_counter+=1
 # print(vowel_counter)
+
+#task number two
+s=input()
+length=len(s)
+if length>10:
+    print('long')
+else:
+    print('short')
