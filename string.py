@@ -184,9 +184,20 @@
 #     print(first_character, last_character)
 
 #task number five
+# s=input()
+# counter=0
+# for i in s:
+#     if i.isdigit():
+#          counter+=1
+# print(counter)
+
+#task number six
 s=input()
-counter=0
-for i in s:
-    if i.isdigit():
-         counter+=1
-print(counter)
+if len(s)==0:
+    print(False)
+else:
+    first_character=s[0]
+    if first_character.isupper() and 'A'<= first_character <= 'Z':
+        print(True)
+    else:
+        print(False)
