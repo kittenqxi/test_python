@@ -203,8 +203,12 @@
 #         print(False)
 
 #task number seven
+# s=input()
+# reverse=''
+# for i in s:
+#     reverse=i+reverse
+# print(reverse)
+
+#task number eight
 s=input()
-reverse=''
-for i in s:
-    reverse=i+reverse
-print(reverse)
+print(s.replace('!', ''))
