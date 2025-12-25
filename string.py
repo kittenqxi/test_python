@@ -165,11 +165,20 @@
 #     print('short')
 
 # #task number three
+# s=input()
+# result_s=''
+# for i in s:
+#     if i==' ':
+#         result_s+='_'
+#     else:
+#         result_s+=i
+# print(result_s)
+
+#task number four
 s=input()
-result_s=''
-for i in s:
-    if i==' ':
-        result_s+='_'
-    else:
-        result_s+=i
-print(result_s)
+if len(s)==0:
+    print('Empty string')
+else:
+    first_character=s[0]
+    last_character=s[-1]
+    print(first_character, last_character)
