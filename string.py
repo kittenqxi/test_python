@@ -157,9 +157,19 @@
 # print(vowel_counter)
 
 #task number two
+# s=input()
+# length=len(s)
+# if length>10:
+#     print('long')
+# else:
+#     print('short')
+
+# #task number three
 s=input()
-length=len(s)
-if length>10:
-    print('long')
-else:
-    print('short')
+result_s=''
+for i in s:
+    if i==' ':
+        result_s+='_'
+    else:
+        result_s+=i
+print(result_s)
