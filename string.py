@@ -214,5 +214,13 @@
 # print(s.replace('!', ''))
 
 #task number nine
+# s=input()
+# print(s.count('a'))
+
+#task number ten
 s=input()
-print(s.count('a'))
+reverse=s[::-1]
+if s==reverse:
+    print(True)
+else:
+    print(False)
