@@ -192,12 +192,19 @@
 # print(counter)
 
 #task number six
+# s=input()
+# if len(s)==0:
+#     print(False)
+# else:
+#     first_character=s[0]
+#     if first_character.isupper() and 'A'<= first_character <= 'Z':
+#         print(True)
+#     else:
+#         print(False)
+
+#task number seven
 s=input()
-if len(s)==0:
-    print(False)
-else:
-    first_character=s[0]
-    if first_character.isupper() and 'A'<= first_character <= 'Z':
-        print(True)
-    else:
-        print(False)
+reverse=''
+for i in s:
+    reverse=i+reverse
+print(reverse)
