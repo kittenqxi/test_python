@@ -175,10 +175,18 @@
 # print(result_s)
 
 #task number four
+# s=input()
+# if len(s)==0:
+#     print('Empty string')
+# else:
+#     first_character=s[0]
+#     last_character=s[-1]
+#     print(first_character, last_character)
+
+#task number five
 s=input()
-if len(s)==0:
-    print('Empty string')
-else:
-    first_character=s[0]
-    last_character=s[-1]
-    print(first_character, last_character)
+counter=0
+for i in s:
+    if i.isdigit():
+         counter+=1
+print(counter)
