@@ -210,5 +210,9 @@
 # print(reverse)
 
 #task number eight
+# s=input()
+# print(s.replace('!', ''))
+
+#task number nine
 s=input()
-print(s.replace('!', ''))
+print(s.count('a'))
