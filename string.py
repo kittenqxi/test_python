@@ -258,13 +258,23 @@
 # print(s1)
 
 #task number fourteen
+# s=input()
+# words=s.split()
+# l_word=''
+# max_l=0
+# for i in words:
+#     n_word=len(i)
+#     if n_word>max_l:
+#         max_l=n_word
+#         l_word=i
+# print(l_word)
+
+#task number fifteen
 s=input()
-words=s.split()
-l_word=''
-max_l=0
-for i in words:
-    n_word=len(i)
-    if n_word>max_l:
-        max_l=n_word
-        l_word=i
-print(l_word)
+s1=''
+for i in range(len(s)):
+    if i%2==0:
+        s1+=s[i].upper()
+    else:
+        s1+=s[i].lower()
+print(s1)
