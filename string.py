@@ -218,9 +218,18 @@
 # print(s.count('a'))
 
 #task number ten
+# s=input()
+# reverse=s[::-1]
+# if s==reverse:
+#     print(True)
+# else:
+#     print(False)
+
+#task number eleven
 s=input()
-reverse=s[::-1]
-if s==reverse:
-    print(True)
-else:
-    print(False)
+c_s=s.strip()
+counter=1
+for i in range(1, len(c_s)):
+    if c_s[i]!=' ' and c_s[i-1]==' ':
+        counter+=1
+print(counter)
