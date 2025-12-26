@@ -226,10 +226,25 @@
 #     print(False)
 
 #task number eleven
+# s=input()
+# c_s=s.strip()
+# counter=1
+# for i in range(1, len(c_s)):
+#     if c_s[i]!=' ' and c_s[i-1]==' ':
+#         counter+=1
+# print(counter)
+
+#task number twelve
 s=input()
-c_s=s.strip()
+s1=''
+c_ch=s[0]
 counter=1
-for i in range(1, len(c_s)):
-    if c_s[i]!=' ' and c_s[i-1]==' ':
+for i in range(1, len(s)):
+    if s[i]==c_ch:
         counter+=1
-print(counter)
+    else:
+        s1+=c_ch+str(counter)
+        c_ch=s[i]
+        counter=1
+s1+=c_ch+str(counter)
+print(s1)
