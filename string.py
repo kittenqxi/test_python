@@ -250,9 +250,21 @@
 # print(s1)
 
 #task number thirteen
+# s=input()
+# s1=''
+# for i in s:
+#     if i not in s1:
+#         s1+=i
+# print(s1)
+
+#task number fourteen
 s=input()
-s1=''
-for i in s:
-    if i not in s1:
-        s1+=i
-print(s1)
+words=s.split()
+l_word=''
+max_l=0
+for i in words:
+    n_word=len(i)
+    if n_word>max_l:
+        max_l=n_word
+        l_word=i
+print(l_word)
