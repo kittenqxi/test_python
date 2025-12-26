@@ -235,16 +235,24 @@
 # print(counter)
 
 #task number twelve
+# s=input()
+# s1=''
+# c_ch=s[0]
+# counter=1
+# for i in range(1, len(s)):
+#     if s[i]==c_ch:
+#         counter+=1
+#     else:
+#         s1+=c_ch+str(counter)
+#         c_ch=s[i]
+#         counter=1
+# s1+=c_ch+str(counter)
+# print(s1)
+
+#task number thirteen
 s=input()
 s1=''
-c_ch=s[0]
-counter=1
-for i in range(1, len(s)):
-    if s[i]==c_ch:
-        counter+=1
-    else:
-        s1+=c_ch+str(counter)
-        c_ch=s[i]
-        counter=1
-s1+=c_ch+str(counter)
+for i in s:
+    if i not in s1:
+        s1+=i
 print(s1)
